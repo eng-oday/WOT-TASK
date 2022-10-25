@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0530DE3350F37CCD11164332 /* Pods_Moltaqa_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDB54F5E0540677CA56A521 /* Pods_Moltaqa_Task.framework */; };
+		1452B3BC290718C800A3CAB3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452B3BB290718C800A3CAB3 /* TabBarViewController.swift */; };
+		1452B3BE29071FCB00A3CAB3 /* changeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452B3BD29071FCB00A3CAB3 /* changeStatusViewController.swift */; };
+		14D462712906AB0D00D486A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462702906AB0D00D486A1 /* AppDelegate.swift */; };
+		14D462732906AB0D00D486A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462722906AB0D00D486A1 /* SceneDelegate.swift */; };
+		14D462782906AB0D00D486A1 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D462762906AB0D00D486A1 /* Auth.storyboard */; };
+		14D4627A2906AB1300D486A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D462792906AB1300D486A1 /* Assets.xcassets */; };
+		14D4627D2906AB1300D486A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D4627B2906AB1300D486A1 /* LaunchScreen.storyboard */; };
+		14D4628D2906B05500D486A1 /* UItextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4628C2906B05500D486A1 /* UItextField+Ext.swift */; };
+		14D4628F2906B15700D486A1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D4628E2906B15700D486A1 /* Colors.xcassets */; };
+		14D462922906B51500D486A1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462912906B51500D486A1 /* LoginViewController.swift */; };
+		14D462952906BEFD00D486A1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462942906BEFD00D486A1 /* ApiManager.swift */; };
+		14D462972906C05C00D486A1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462962906C05C00D486A1 /* Helper.swift */; };
+		14D4629B2906C0BB00D486A1 /* UiviewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4629A2906C0BB00D486A1 /* UiviewController+Ext.swift */; };
+		14D4629F2906CBE900D486A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4629E2906CBE900D486A1 /* HomeViewController.swift */; };
+		14D462A12906CC1600D486A1 /* HomeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D462A02906CC1600D486A1 /* HomeStoryBoard.storyboard */; };
+		14D462A32906D17C00D486A1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462A22906D17C00D486A1 /* Constant.swift */; };
+		14D462A72906E28100D486A1 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D462A52906E28100D486A1 /* HomeTableViewCell.swift */; };
+		14D462A82906E28100D486A1 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D462A62906E28100D486A1 /* HomeTableViewCell.xib */; };
+		14F5C74E2907359100D551AC /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F5C74D2907359100D551AC /* More.storyboard */; };
+		14F5C7512907368400D551AC /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5C74F2907368400D551AC /* SettingsTableViewCell.swift */; };
+		14F5C7522907368400D551AC /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F5C7502907368400D551AC /* SettingsTableViewCell.xib */; };
+		14F5C754290736AF00D551AC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5C753290736AF00D551AC /* MoreViewController.swift */; };
+		14F5C75629073A0800D551AC /* settingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5C75529073A0800D551AC /* settingsModel.swift */; };
+		14F5C75829074A4100D551AC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5C75729074A4100D551AC /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1452B3BB290718C800A3CAB3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1452B3BD29071FCB00A3CAB3 /* changeStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeStatusViewController.swift; sourceTree = "<group>"; };
+		14D4626D2906AB0D00D486A1 /* Moltaqa_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moltaqa_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D462702906AB0D00D486A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14D462722906AB0D00D486A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14D462772906AB0D00D486A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
+		14D462792906AB1300D486A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D4627C2906AB1300D486A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14D4627E2906AB1300D486A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D4628C2906B05500D486A1 /* UItextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UItextField+Ext.swift"; sourceTree = "<group>"; };
+		14D4628E2906B15700D486A1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		14D462912906B51500D486A1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		14D462942906BEFD00D486A1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		14D462962906C05C00D486A1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		14D4629A2906C0BB00D486A1 /* UiviewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiviewController+Ext.swift"; sourceTree = "<group>"; };
+		14D4629E2906CBE900D486A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		14D462A02906CC1600D486A1 /* HomeStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryBoard.storyboard; sourceTree = "<group>"; };
+		14D462A22906D17C00D486A1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		14D462A52906E28100D486A1 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		14D462A62906E28100D486A1 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		14F5C74D2907359100D551AC /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		14F5C74F2907368400D551AC /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		14F5C7502907368400D551AC /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		14F5C753290736AF00D551AC /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		14F5C75529073A0800D551AC /* settingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsModel.swift; sourceTree = "<group>"; };
+		14F5C75729074A4100D551AC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2B9F223F8575CB45290D0637 /* Pods-Moltaqa_Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moltaqa_Task.debug.xcconfig"; path = "Target Support Files/Pods-Moltaqa_Task/Pods-Moltaqa_Task.debug.xcconfig"; sourceTree = "<group>"; };
+		2BDB54F5E0540677CA56A521 /* Pods_Moltaqa_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moltaqa_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB1EB0665F7DCD14100F39A /* Pods-Moltaqa_Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moltaqa_Task.release.xcconfig"; path = "Target Support Files/Pods-Moltaqa_Task/Pods-Moltaqa_Task.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D4626A2906AB0D00D486A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0530DE3350F37CCD11164332 /* Pods_Moltaqa_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D462642906AB0D00D486A1 = {
+			isa = PBXGroup;
+			children = (
+				14D4626F2906AB0D00D486A1 /* Moltaqa_Task */,
+				14D4626E2906AB0D00D486A1 /* Products */,
+				AA5BC5A4D88655C6ADE7CFE9 /* Pods */,
+				8578F7E1E6CACAC7BFDA9377 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14D4626E2906AB0D00D486A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14D4626D2906AB0D00D486A1 /* Moltaqa_Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D4626F2906AB0D00D486A1 /* Moltaqa_Task */ = {
+			isa = PBXGroup;
+			children = (
+				14D462932906BED800D486A1 /* ApiHandler */,
+				14D4628B2906B04100D486A1 /* Extension */,
+				14D462892906ACB400D486A1 /* Helper */,
+				14D462882906ACA400D486A1 /* Support */,
+				14D462872906AC9200D486A1 /* View */,
+				14D462862906AC8000D486A1 /* Model */,
+				14D462852906AC6F00D486A1 /* ViewControllers */,
+				14D462842906ABA400D486A1 /* StoryBoard */,
+				14D462902906B16100D486A1 /* Assets */,
+				14D4627B2906AB1300D486A1 /* LaunchScreen.storyboard */,
+				14D4627E2906AB1300D486A1 /* Info.plist */,
+				14D462A22906D17C00D486A1 /* Constant.swift */,
+			);
+			path = Moltaqa_Task;
+			sourceTree = "<group>";
+		};
+		14D462842906ABA400D486A1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				14D462762906AB0D00D486A1 /* Auth.storyboard */,
+				14D462A02906CC1600D486A1 /* HomeStoryBoard.storyboard */,
+				14F5C74D2907359100D551AC /* More.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		14D462852906AC6F00D486A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14F5C74C2907357700D551AC /* moreVC */,
+				14F5C74B2907355D00D551AC /* TabBar */,
+				14F5C74A2907354E00D551AC /* Home */,
+				14F5C7492907354400D551AC /* AuthVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		14D462862906AC8000D486A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14F5C75529073A0800D551AC /* settingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14D462872906AC9200D486A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14D462A42906E25B00D486A1 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14D462882906ACA400D486A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				14D462702906AB0D00D486A1 /* AppDelegate.swift */,
+				14D462722906AB0D00D486A1 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		14D462892906ACB400D486A1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				14D462962906C05C00D486A1 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		14D4628B2906B04100D486A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14D4628C2906B05500D486A1 /* UItextField+Ext.swift */,
+				14D4629A2906C0BB00D486A1 /* UiviewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		14D462902906B16100D486A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				14D462792906AB1300D486A1 /* Assets.xcassets */,
+				14D4628E2906B15700D486A1 /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		14D462932906BED800D486A1 /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				14D462942906BEFD00D486A1 /* ApiManager.swift */,
+			);
+			path = ApiHandler;
+			sourceTree = "<group>";
+		};
+		14D462A42906E25B00D486A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				14D462A52906E28100D486A1 /* HomeTableViewCell.swift */,
+				14D462A62906E28100D486A1 /* HomeTableViewCell.xib */,
+				14F5C74F2907368400D551AC /* SettingsTableViewCell.swift */,
+				14F5C7502907368400D551AC /* SettingsTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		14F5C7492907354400D551AC /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				14D462912906B51500D486A1 /* LoginViewController.swift */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		14F5C74A2907354E00D551AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				14D4629E2906CBE900D486A1 /* HomeViewController.swift */,
+				1452B3BD29071FCB00A3CAB3 /* changeStatusViewController.swift */,
+				14F5C753290736AF00D551AC /* MoreViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		14F5C74B2907355D00D551AC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1452B3BB290718C800A3CAB3 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		14F5C74C2907357700D551AC /* moreVC */ = {
+			isa = PBXGroup;
+			children = (
+				14F5C75729074A4100D551AC /* ProfileViewController.swift */,
+			);
+			path = moreVC;
+			sourceTree = "<group>";
+		};
+		8578F7E1E6CACAC7BFDA9377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BDB54F5E0540677CA56A521 /* Pods_Moltaqa_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5BC5A4D88655C6ADE7CFE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F223F8575CB45290D0637 /* Pods-Moltaqa_Task.debug.xcconfig */,
+				CCB1EB0665F7DCD14100F39A /* Pods-Moltaqa_Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14D4626C2906AB0D00D486A1 /* Moltaqa_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D462812906AB1300D486A1 /* Build configuration list for PBXNativeTarget "Moltaqa_Task" */;
+			buildPhases = (
+				5E746DD562DBE95159DD650F /* [CP] Check Pods Manifest.lock */,
+				14D462692906AB0D00D486A1 /* Sources */,
+				14D4626A2906AB0D00D486A1 /* Frameworks */,
+				14D4626B2906AB0D00D486A1 /* Resources */,
+				400E85E6150C08FADD31F8BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moltaqa_Task;
+			productName = Moltaqa_Task;
+			productReference = 14D4626D2906AB0D00D486A1 /* Moltaqa_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14D462652906AB0D00D486A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					14D4626C2906AB0D00D486A1 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 14D462682906AB0D00D486A1 /* Build configuration list for PBXProject "Moltaqa_Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14D462642906AB0D00D486A1;
+			productRefGroup = 14D4626E2906AB0D00D486A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D4626C2906AB0D00D486A1 /* Moltaqa_Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D4626B2906AB0D00D486A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D4627D2906AB1300D486A1 /* LaunchScreen.storyboard in Resources */,
+				14D4628F2906B15700D486A1 /* Colors.xcassets in Resources */,
+				14F5C74E2907359100D551AC /* More.storyboard in Resources */,
+				14D462A12906CC1600D486A1 /* HomeStoryBoard.storyboard in Resources */,
+				14D4627A2906AB1300D486A1 /* Assets.xcassets in Resources */,
+				14D462A82906E28100D486A1 /* HomeTableViewCell.xib in Resources */,
+				14F5C7522907368400D551AC /* SettingsTableViewCell.xib in Resources */,
+				14D462782906AB0D00D486A1 /* Auth.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		400E85E6150C08FADD31F8BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moltaqa_Task/Pods-Moltaqa_Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moltaqa_Task/Pods-Moltaqa_Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moltaqa_Task/Pods-Moltaqa_Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E746DD562DBE95159DD650F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moltaqa_Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14D462692906AB0D00D486A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F5C75629073A0800D551AC /* settingsModel.swift in Sources */,
+				14F5C754290736AF00D551AC /* MoreViewController.swift in Sources */,
+				14D462922906B51500D486A1 /* LoginViewController.swift in Sources */,
+				1452B3BE29071FCB00A3CAB3 /* changeStatusViewController.swift in Sources */,
+				14D462712906AB0D00D486A1 /* AppDelegate.swift in Sources */,
+				14F5C7512907368400D551AC /* SettingsTableViewCell.swift in Sources */,
+				14F5C75829074A4100D551AC /* ProfileViewController.swift in Sources */,
+				14D462952906BEFD00D486A1 /* ApiManager.swift in Sources */,
+				14D4629F2906CBE900D486A1 /* HomeViewController.swift in Sources */,
+				14D462A72906E28100D486A1 /* HomeTableViewCell.swift in Sources */,
+				14D462732906AB0D00D486A1 /* SceneDelegate.swift in Sources */,
+				14D4628D2906B05500D486A1 /* UItextField+Ext.swift in Sources */,
+				14D462A32906D17C00D486A1 /* Constant.swift in Sources */,
+				1452B3BC290718C800A3CAB3 /* TabBarViewController.swift in Sources */,
+				14D4629B2906C0BB00D486A1 /* UiviewController+Ext.swift in Sources */,
+				14D462972906C05C00D486A1 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14D462762906AB0D00D486A1 /* Auth.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D462772906AB0D00D486A1 /* Base */,
+			);
+			name = Auth.storyboard;
+			sourceTree = "<group>";
+		};
+		14D4627B2906AB1300D486A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D4627C2906AB1300D486A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14D4627F2906AB1300D486A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14D462802906AB1300D486A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14D462822906AB1300D486A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9F223F8575CB45290D0637 /* Pods-Moltaqa_Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moltaqa_Task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oday.Moltaqa-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14D462832906AB1300D486A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB1EB0665F7DCD14100F39A /* Pods-Moltaqa_Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8S29G9Z3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moltaqa_Task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oday.Moltaqa-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D462682906AB0D00D486A1 /* Build configuration list for PBXProject "Moltaqa_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D4627F2906AB1300D486A1 /* Debug */,
+				14D462802906AB1300D486A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D462812906AB1300D486A1 /* Build configuration list for PBXNativeTarget "Moltaqa_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D462822906AB1300D486A1 /* Debug */,
+				14D462832906AB1300D486A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14D462652906AB0D00D486A1 /* Project object */;
+}

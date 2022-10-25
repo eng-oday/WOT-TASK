@@ -1,0 +1,40 @@
+PODS:
+  - AJMessage (1.2.2)
+  - Alamofire (4.9.1)
+  - Kingfisher (7.2.4)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AJMessage
+  - Alamofire (~> 4.2)
+  - Kingfisher (~> 7.0)
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - AJMessage
+    - Alamofire
+    - Kingfisher
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AJMessage: d6f1920c02224a117d0d5079ff8648f70deecfb1
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: 2457be2121734e69e54a2312ecc0150eb9ae70b3
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 258461e31513c2defeb1ce47531774a5ab402791
+
+COCOAPODS: 1.11.2
